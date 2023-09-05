@@ -1,4 +1,21 @@
-body {background-color: #103f79;
-color:gold}
+body {background-color: #103f79;}
+#titulo {
+    top:0;
+    background-color: #f3b229;
+    color: #103f79;
+    position: sticky;
+    padding-left: 400px;
+}
+h2 {color: whitesmoke}
+#tablajugadores {
+    color: white;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+#tresfotos { 
+    margin-left: 50px;
+}
+label {color:whitesmoke}
+
 
 
