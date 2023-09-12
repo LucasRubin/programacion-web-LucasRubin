@@ -4,7 +4,8 @@ body {background-color: #103f79;}
     background-color: #f3b229;
     color: #103f79;
     position: sticky;
-    padding-left: 400px;
+    padding-left: 350px;
+    font-size:x-large;
 }
 h2 {color: whitesmoke}
 #tablajugadores {
@@ -17,5 +18,13 @@ h2 {color: whitesmoke}
 }
 label {color:whitesmoke}
 
+#TabladeJugadores {
+    padding-left: 50px;
+    display: inline-block;
+}
 
-
+#fotoplantel {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -250px;
+}
