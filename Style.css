@@ -1,8 +1,8 @@
 body {background-color: #103f79;}
 #titulo {
     top:0;
-    background-color: #f3b229;
-    color: #103f79;
+    color: #f3b229;
+    background-color: #103f79;
     position: sticky;
     padding-left: 350px;
     font-size:x-large;
@@ -72,4 +72,8 @@ label {color:whitesmoke}
 .lista-redes-sociales {
         color: #103f79;
 
+}
+
+.navbar {
+    background-color: #f3b229;
 }
