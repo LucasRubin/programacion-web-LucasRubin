@@ -9,6 +9,14 @@ body {background-color: #103f79;}
     
 }
 
+#Fundacion {
+    color: white;
+    padding-left: 50px;
+    font-size: small;
+    font: 100;
+
+}
+
 .container-fluid {
     
     color:#103f79 ;
