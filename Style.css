@@ -1,21 +1,29 @@
 body {background-color: #103f79;}
-#titulo {
-    top:0;
-    color: #f3b229;
-    background-color: #103f79;
-    position: sticky;
-    padding-left: 350px;
-    font-size:x-large;
+
+.navbar navbar-expand-lg #f3b229 {
+    color:#103f79
     
-}
-
-#Fundacion {
-    color: white;
-    padding-left: 50px;
-    font-size: small;
-    font: 100;
 
 }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.escudoboca {
+    position: absolute;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+
 
 .container-fluid {
     
@@ -29,11 +37,30 @@ h2 {color: whitesmoke}
 
 h3 {color:#103f79 }
 
+
 #tablajugadores {
     color: white;
     border: 2px solid white;
     margin-top: 25px;
 }
+
+
+
+
+#Copa1977:hover {
+    transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
+
+    }
+
+#Copa1977 {
+    padding-left: 50px;
+}
+
+#Copa1978:hover {
+    transform: scale(1.1);
+}
+
+
 #tresfotos { 
     margin-left: 50px;
 }
@@ -43,6 +70,48 @@ label {color:whitesmoke}
     padding-left: 50px;
     display: inline-block;
 }
+
+
+  
+  
+ 
+
+.contenedor {
+    position: relative;
+    width: 300px; /* Ajusta el ancho y el alto según tus necesidades */
+    height: 200px;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0074D9; /* Fondo azul */
+    color: #fff; /* Letra en blanco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.contenedor:hover .imagen {
+    transform: scale(1.1); /* Cambia la escala de la imagen al 110% en el hover */
+}
+
+.contenedor:hover .texto {
+    opacity: 1; /* Muestra el texto en hover */
+}
+
 
 #fotoplantel {
     display: inline-block;
@@ -82,6 +151,77 @@ label {color:whitesmoke}
 
 }
 
+
+
 .navbar {
     background-color: #f3b229;
+}
+
+
+.titulo-final{
+    text-align: center;
+    color: #103f79;
+}
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --whatsapp: #25d366;
+    --twitter:  #1DA1F2;
+}
+
+.redes-conteiner{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.redes-conteiner ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width:50px;
+    height:50px;
+    text-align: center;
+}
+
+.redes-conteiner ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #103f79;
+    color:#f3b229;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+    transition: .2s;
+
+}
+
+.redes-conteiner ul:hover a{
+    filter:blur(2px);
+}
+
+.redes-conteiner ul li a:hover{
+    transform: translateY(-3px)scale(1.05);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.4);
+    filter: none;
+}
+
+.redes-conteiner ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes-conteiner ul li .instagram:hover{
+    background: var(--instagram);
+}
+.redes-conteiner ul li .whatsapp:hover{
+    background: var(--whatsapp);
+}
+.redes-conteiner ul li .twitter:hover{
+    background: var(--twitter);
+}
+
+.mail{
+    text-decoration: none;
+    color: #FAFAFA;
 }
