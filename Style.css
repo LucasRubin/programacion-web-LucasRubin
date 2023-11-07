@@ -47,24 +47,8 @@ h3 {color:#103f79 }
 
 
 
-#Copa1977:hover {
-    transform: scale(1.1); /* Agrega un efecto de escala al pasar el cursor sobre el botón */
-
-    }
-
-#Copa1977 {
-    padding-left: 50px;
-}
-
-#Copa1978:hover {
-    transform: scale(1.1);
-}
 
 
-#tresfotos { 
-    margin-left: 50px;
-}
-label {color:whitesmoke}
 
 #TabladeJugadores {
     padding-left: 50px;
@@ -123,6 +107,11 @@ label {color:whitesmoke}
 #textoFormaciones {
     color: #f3b229;
 
+}
+
+.consultas{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .carousel > .carousel-inner > .carousel-item > img{
