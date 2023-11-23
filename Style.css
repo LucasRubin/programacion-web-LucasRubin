@@ -157,6 +157,7 @@ h3 {color:#103f79 }
     --instagram: #e4405f;
     --whatsapp: #25d366;
     --twitter:  #1DA1F2;
+    --directv: #1DA1F2
 }
 
 .redes-conteiner{
@@ -210,7 +211,164 @@ h3 {color:#103f79 }
     background: var(--twitter);
 }
 
+
+.fotossponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la pantalla */
+  }
+
+  .fotossponsors img {
+    max-width: 100%; /* Hace que la imagen sea responsiva y no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block;
+  }
+
+
+
 .mail{
     text-decoration: none;
     color: #FAFAFA;
 }
+
+-- plantel profesional
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . ."
+      ". Romero ronca saracchi figal ."
+      ". bull rojo chango pol ."
+      ". pipa cava janson brey ."
+      ". javi valentini bestia advincula ."
+      ". fabra colo ramirez equi ."
+      ". puplo valdez briassco genez ."
+      ". medina anselmino taborda di-lollo ."
+      ". langoni blondel campu weigan ."
+      ". . . . . .";
+  }
+  
+  .Romero { grid-area: Romero; }
+  
+  .ronca { grid-area: ronca; }
+  
+  .saracchi { grid-area: saracchi; }
+  
+  .figal { grid-area: figal; }
+  
+  .bull { grid-area: bull; }
+  
+  .rojo { grid-area: rojo; }
+  
+  .chango { grid-area: chango; }
+  
+  .pol { grid-area: pol; }
+  
+  .pipa { grid-area: pipa; }
+  
+  .cava { grid-area: cava; }
+  
+  .janson { grid-area: janson; }
+  
+  .brey { grid-area: brey; }
+  
+  .javi { grid-area: javi; }
+  
+  .valentini { grid-area: valentini; }
+  
+  .bestia { grid-area: bestia; }
+  
+  .advincula { grid-area: advincula; }
+  
+  .fabra { grid-area: fabra; }
+  
+  .colo { grid-area: colo; }
+  
+  .ramirez { grid-area: ramirez; }
+  
+  .equi { grid-area: equi; }
+  
+  .puplo { grid-area: puplo; }
+  
+  .valdez { grid-area: valdez; }
+  
+  .briassco { grid-area: briassco; }
+  
+  .genez { grid-area: genez; }
+  
+  .medina { grid-area: medina; }
+  
+  .anselmino { grid-area: anselmino; }
+  
+  .taborda { grid-area: taborda; }
+  
+  .di-lollo { grid-area: di-lollo; }
+  
+  .langoni { grid-area: langoni; }
+  
+  .blondel { grid-area: blondel; }
+  
+  .campu { grid-area: campu; }
+  
+  .weigan { grid-area: weigan; }
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch; 
+  }
+
+  .container > div {
+    flex: 1 0 calc(25% - 20px);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .texto-superpuesto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    background-color: #103f79;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; 
+  }
+
+  .container > div:hover .texto-superpuesto {
+    opacity: 85%;
+  }
+
+
+-- formaciones historicas
+
