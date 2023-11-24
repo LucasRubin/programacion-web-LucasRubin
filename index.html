@@ -79,19 +79,19 @@
     </main>
     <footer id="Footer">
       <div class="consultas">
-      <h3>Envíanos tus consultas:</h3>
-      <form>
-        
-        <div class="form-group">
-          <input type="email" class="form-control" placeholder="Email">
-        </div>
-        <br>
-        <div class="form-group">
-          <textarea class="form-control" placeholder="Consulta"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-    </div>
+        <h3>Envíanos tus consultas:</h3>
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+          <br>
+          <div class="form-group">
+            <textarea class="form-control" id="inputConsulta" placeholder="Consulta"></textarea>
+          </div>
+          <button onclick="enviarConsulta()" class="btn btn-primary" id="botonenviar">Enviar</button>
+        </form>
+      </div>
+    <script src="guardarConsulta.js"></script>
 
         <div class="redes-conteiner">
           <ul>

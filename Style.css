@@ -137,6 +137,23 @@ h3 {color:#103f79 }
 
 }
 
+#botonenviar {
+  background-color: #103f79;
+    color:#f4f4f4;
+    border-radius: 1vw;
+    border: 1px #f3b229;
+    font-size: 1.5vw;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+#botonenviar:hover {
+  color: #f3b229 !important;
+  background-color: #103f79 !important;
+  border: solid #103f79 1px;
+  border-radius: 8px
+}
+
 .lista-redes-sociales {
         color: #103f79;
 
@@ -393,8 +410,11 @@ h3 {color:#103f79 }
     margin-right: 1vw;
   
   }
-  
-  
+
+  #mensajeConsultaEnviada{
+    display: none;
+  }
+
   .contenedorc>div{
     
       background-color: #f4f4f4;
