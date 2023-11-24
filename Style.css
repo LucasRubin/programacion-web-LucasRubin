@@ -7,11 +7,21 @@ body {background-color: #103f79;}
 }
 
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio, ajusta según la proporción de tu video */
+  max-width: 100%;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta según tus necesidades, puede ser "cover" o "contain" */
 }
 
 .escudoboca {
