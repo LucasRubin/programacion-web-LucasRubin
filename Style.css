@@ -321,6 +321,7 @@ h3 {color:#103f79 }
   body {
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #f4f4f4;
   }
 
   
@@ -383,6 +384,9 @@ h3 {color:#103f79 }
     flex-wrap: wrap;
     gap: 5vw;
     margin-bottom: 2vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   
   }
   
@@ -506,7 +510,8 @@ h3 {color:#103f79 }
   }
 
   #carrito th {
-    color:#103f79
+    color:#103f79;
+    background-color: #f3b229;
  }
   #carrito ul {
     list-style-type: none;
@@ -534,8 +539,8 @@ h3 {color:#103f79 }
   }
   
   #carrito .eliminar {
-    background-color: #103f79;
-    color: #fff;
+    background-color: #f3b229;
+    color: #103f79;
     border: none;
     padding: 0.5vw 1vw;
     font-size: 1.5vw;
@@ -579,3 +584,142 @@ h3 {color:#103f79 }
     margin-right: 1vw;
   }
   
+
+#titulo-final a {
+    color:#103f79
+
+}
+
+
+#carrito-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #103f79;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+#carrito-container h2 {
+  color: #103f79;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#carrito-body {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  
+}
+
+#carrito-body th, #carrito-body td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #103f79;
+}
+
+#carrito-body .btn-eliminar {
+  background-color: #103f79;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#carrito-body .btn-eliminar:hover {
+  background-color: #9baf16;
+}
+
+#total-precio {
+  font-weight: bold;
+  color: #103f79;
+}
+
+#vaciar-carrito {
+  background-color: #103f79;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#vaciar-carrito:hover {
+  background-color: #f3b229;
+}
+
+
+
+/* Estilos para los botones de agregar al carrito */
+
+
+
+#boton-carrito:hover {
+  color: #f3b229 !important;
+}
+
+/* Estilos para el responsive */
+@media screen and (max-width: 768px) {
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+} 
+
+
+.elemento-Carrito {
+margin: 7px;
+font-family:'Bebas Neue', sans-serif;
+color: #f4f4f4;
+
+}
+
+.elemento-Eliminar {
+  margin-left: 25px;
+  border: 1px solid black !important;
+  background-color: #f3b229 !important;
+  border-radius: 8px;
+  color:#103f79
+}
+.elemento-Eliminar:hover{
+  background-color: red !important;
+  color: #f3b229 !important;
+}
+
+h5 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#btn-vaciar {
+  border: 1px solid black !important;
+  background-color: #f3b229 !important;
+  border-radius: 8px;
+  color: #103f79 !important;
+
+}
+
+#btn-finalizar {
+  border: 1px solid black !important;
+  background-color: #f3b229 !important;
+  border-radius: 8px;
+  margin-top: 5px;
+  color: #103f79 !important;
+
+}
+
+#btn-finalizar:hover {
+  color: #f4f4f4 !important;
+  background-color: #218838 !important;
+}
+
+#btn-vaciar:hover {
+  background-color: red !important;
+  color: #f3b229 !important;
+}
+
+#Carrito {
+  padding: 30px !important;
+}
