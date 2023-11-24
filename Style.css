@@ -366,10 +366,12 @@ h3 {color:#103f79 }
     border-radius: 5px;
     transition: opacity 0.3s ease-in-out;
     pointer-events: none; 
+    max-width: 100%;
   }
 
   .container > div:hover .texto-superpuesto {
     opacity: 85%;
+    max-width: 100%;
   }
 
 ------ carrito
